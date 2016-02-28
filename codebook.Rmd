@@ -1,0 +1,50 @@
+---
+title: "Getting and Cleaning Data - Codebook"
+output: html_document
+---
+
+##Data Files
+
+There are number of data files used in this project under the data directory.
+
+The training dataset and test dataset are merged into one overall data set.
+
+- /data/test/X_test.txt
+- /data/train/X_train.txt
+
+The test data set comprises 2947 observations of 561 test result variables.
+The train data set comprises 7352 observations of 561 test result variables.
+
+The 561 measures are described in the feature file:
+
+- /data/features.txt
+
+The test data is matched to 6 activities across 30 subjects who were tested.
+
+The Activities associated with the test and training data is contained in the following:
+
+- /data/test/Y_test.txt
+- /data/train/Y_train.txt
+
+Each activity observation in the data files is matched to an activity in the file:
+
+- /data/activity_labels.txt
+
+The labels in this file are as follows:
+
+1 WALKING <br>
+2 WALKING_UPSTAIRS <br>
+3 WALKING_DOWNSTAIRS <br>
+4 SITTING <br>
+5 STANDING <br>
+6 LAYING <br>
+
+The Subjects associated with the test and training data is contained in the following:
+
+- /data/test/subject_test.txt
+- /data/train/subject_train.txt
+
+
+
+
+
